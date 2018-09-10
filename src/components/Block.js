@@ -9,7 +9,7 @@ function Block(props) {
             <Card>
               <div className={props.background}>
               <CardBody>
-                <form>
+                <div>
                   <p className="h2 text-center">Block #{props.index}</p>
                   <div>
                     <Input onChange={props.onChange} size="sm" icon="pencil" hint={props.data}/>
@@ -23,7 +23,7 @@ function Block(props) {
                   <div className="tc">
                     <Button onClick={props.onClick} color={props.buttonColor}>Mine<i className="fa fa-refresh ml-2"></i></Button>
                   </div>
-                </form>
+                </div>
               </CardBody>
             </div>
             </Card>

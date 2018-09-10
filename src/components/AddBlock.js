@@ -8,7 +8,7 @@ function AddBlock(props) {
           <Col md="4">
             <Card>
               <CardBody>
-                <form>
+                <div>
                   <div className="tc">
                     <input type="text" placeHolder="block data" onChange={props.onChange} value={props.data}/>
 
@@ -16,7 +16,7 @@ function AddBlock(props) {
                   <div className="tc">
                     <Button onClick={props.onClick} color="blue">Add new Block<i className="fa fa-plus-square-o ml-2"></i></Button>
                   </div>
-                </form>
+                </div>
               </CardBody>
             </Card>
           </Col>
